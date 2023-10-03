@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:coffe_apps/pages/coffePage/coffePage.dart';
 import 'package:coffe_apps/pages/homePage/homePage.dart';
 import 'package:coffe_apps/pages/profilPage/profilPage.dart';
@@ -25,10 +27,10 @@ class mainWidget extends StatefulWidget {
   const mainWidget({super.key});
 
   @override
-  State<mainWidget> createState() => _mainWidgetState();
+  State<mainWidget> createState() => _MainWidgetState();
 }
 
-class _mainWidgetState extends State<mainWidget> {
+class _MainWidgetState extends State<mainWidget> {
   //   <--------------------------- untuk menambahkan page --------------------------------->
   int _currentIndex = 0;
   final List<Widget> _children = [
